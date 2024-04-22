@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusmi Tea | Th&#233;s et Infusions Bio de qualit&#233;</title>
+    <meta name="description" content="Découvrez une sélection de thés et d'infusions bio de qualité chez Kusmi Tea. Profitez de nos offres du moment et trouvez le cadeau parfait pour les amateurs de thé.">
+    <meta name="keywords" content="Kusmi Tea, thé bio, infusion bio, thé vert, thé noir, cadeaux, accessoires, boutique en ligne">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon/WEB PICTO ONGLET 02.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="bar-promo">
+        <a> <strong>Nouveaut&#233; :</strong> D&#233;couvre le th&#233; vert D&#233;fenses Immunitaires enrichi &#224;
+            la vitamine C. |
+            Livraison OFFERTE d&#232;s 49€</a>
+        <span> X</span>
+    </div>
+    <span id="show-promo">
+        i
+    </span>
+    <header>
+        <div class="logo">
+            <img src="./assets/logo/logo.svg" alt="Logo de Kusmi Tea" />
+        </div>
+        <div class="navigation">
+            <button id="search-btn">
+                <img src="./assets/icones/loupe.svg" alt="icône de barre de  recherche" srcset="">
+            </button>
+            <button id="cart-btn">
+                <img src="./assets/icones/cart.svg" alt="icône du panier" srcset="">
+                <span id="counter"></span>
+            </button>
+            <button id="dropdown-menu">
+                <img src="./assets/icones/burger-menu.svg" alt="icône du dropdown-menu" srcset="">
+            </button>
+        </div>
+    </header>
+    <ul id="dropdown-content">
+        <li><a href="#">Offres du moment</a></li>
+        <li><a href="#">Best sellers</a></li>
+        <li><a href="#">Nos Th&#233;s et Infusions</a></li>
+        <li><a href="#">Bo&icirc;tes et Sachets</a></li>
+        <li><a href="#">Coffret cadeaux</a></li>
+        <li><a href="#">Accessoires</a></li>
+        <li><a href="#">La marque</a></li>
+    </ul>
+
+    <div class="main-container">
+        <section>
+            <div class="gallery-container">
+                <h2> Nos Bestsellers </h2>
+                <div class="gallery">
+                    <div class="gallery-item item">
+                        <img src="./assets/gallery/item-1.png" alt="Bundle 45E infu​ +​ gourde">
+                        <h4>Bundle 45E infu​ +​ gourde​</h4>
+                        <p>Lorem Ipsum</p>
+                        <span>17,90€</span>
+                        <button class="add-gallery-item"> Ajouter </button>
+                    </div>
+                    <div class="gallery-item item">
+                        <img src="./assets/gallery/item-2.png" alt="Bundle 45E infu​ +​ gourde">
+                        <h4>Bundle 45E + fourreau​​</h4>
+                        <p>Lorem Ipsum</p>
+                        <span>17,90€</span>
+                        <button class="add-gallery-item"> Ajouter </button>
+                    </div>
+                    <div class="gallery-item item">
+                        <img src="./assets/gallery/item-3.png" alt="Coffret La Collection Alain Ducasse bio">
+                        <h4>Coffret La Collection Alain Ducasse bio ​</h4>
+                        <p>Coffret La Collection Alain Ducasse bio </p>
+                        <span>59,90€</span>
+                        <button class="add-gallery-item"> Ajouter </button>
+                    </div>
+                    <div class="gallery-item item">
+                        <img src="./assets/gallery/item-4.png" alt="Rituel Sommeil - Tisane pour dormir">
+                        <h4>Rituel Sommeil​</h4>
+                        <p>Tisane pour dormir, d&#233;licieuse et bio</p>
+                        <span>23,90€</span>
+                        <button class="add-gallery-item"> Ajouter </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="banner-container">
+                <div class="banner">
+                    <img src="./assets/banner/DSC08704-2 1.png" alt="photo du coffret KusmiKube" />
+                    <div class="banner-content">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <h5>Un cadeau infusé d'amour</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="btn-slide"> Je découvre </button>
+                    </div>
+                </div>
+                <div class="banner-responsive">
+                    <h2>Lorem Ipsum Dolor</h2>
+                    <img src="./assets/responsive/banner.png" alt="photo du coffret KusmiKube" />
+                    <div class="banner-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo odio, aliquet </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-container" id="modal-container">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="./assets/banner/DSC08704-2 1.png" alt="photo du coffret KusmiKube" />
+                    <div class="modal-description">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit.
+                            Cras
+                            sed felis eget velit aliquet sagittis id. Metus aliquam eleifend mi in nulla posuere
+                            sollicitudin
+                            aliquam. Massa ultricies mi quis hendrerit dolor magna eget est. Arcu felis bibendum ut
+                            tristique et
+                            egestas quis ipsum suspendisse. Malesuada fames ac turpis egestas integer eget aliquet nibh.
+                            Vel
+                            orci porta non pulvinar neque. Pulvinar mattis nunc sed blandit. Id venenatis a condimentum
+                            vitae.
+                            Risus viverra adipiscing at in tellus integer feugiat. Cursus in hac habitasse platea
+                            dictumst
+                            quisque sagittis purus. Mi bibendum neque egestas congue quisque egestas diam in.
+                        </p>
+                        <p>
+                            Morbi tincidunt augue interdum velit euismod. Sapien faucibus et molestie ac feugiat sed
+                            lectus
+                            vestibulum. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Mauris
+                            augue
+                            neque
+                            gravida in. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Massa
+                            enim
+                            nec
+                            dui nunc mattis enim ut tellus. Diam volutpat commodo sed egestas. Aliquam malesuada
+                            bibendum
+                            arcu
+                            vitae elementum curabitur vitae nunc sed. Sit amet risus nullam eget. Arcu vitae elementum
+                            curabitur
+                            vitae nunc sed velit dignissim sodales. Dis parturient montes nascetur ridiculus mus.
+                            Tincidunt
+                            augue interdum velit euismod. Purus viverra accumsan in nisl nisi scelerisque eu ultrices.
+                        </p>
+                        <div class="button-container">
+                            <button class="add-gallery-item"> Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="carousel-section">
+                <h2> Nos accessoires</h2>
+                <div class="accessoires-carousel-section">
+                    <button id="carousel-left-nav">
+                        <img src="./assets/icones/left-arrow.svg" alt="naviguer à gauche dans le carousel" srcset="">
+                    </button>
+                    <div class="carousel-container" id="wrapper">
+                        <div class="carousel-slider">
+                            <div class="carousel-item item">
+                                <img src="./assets/carousel/carousel-item-1.png" alt="Fouet et spatule en bambou">
+                                <h4>Fouet et spatule ​</h4>
+                                <p>Coffret d’accessoires en bambou</p>
+                                <span>34,90€</span>
+                                <button class="add-gallery-item"> Ajouter </button>
+                            </div>
+                            <div class="carousel-item item">
+                                <img src="./assets/carousel/carousel-item-2.png" alt="Tisanière 44Cl avec filtre ">
+                                <h4>Tisanière 44Cl avec filtre ​</h4>
+                                <p>T.TOTEM</p>
+                                <span>23,50€</span>
+                                <button class="add-gallery-item"> Ajouter </button>
+                            </div>
+                            <div class="carousel-item item">
+                                <img src="./assets/carousel/carousel-item-3.png" alt="Gourde Aqua Rosa">
+                                <h4>Gourde Aqua Rosa​</h4>
+                                <p>Lorem Ipsum</p>
+                                <span>37,00€</span>
+                                <button class="add-gallery-item"> Ajouter </button>
+                            </div>
+                            <div class="carousel-item item">
+                                <img src="./assets/carousel/carousel-item-4.png" alt="Lorem Ipsum">
+                                <h4>Lorem Ipsum​</h4>
+                                <p>Lorem Ipsum</p>
+                                <span>37,00€</span>
+                                <button class="add-gallery-item"> Ajouter </button>
+                            </div>
+                            <div class="carousel-item item">
+                                <img src="./assets/carousel/carousel-item-5.png" alt="Lorem Ipsum">
+                                <h4>Lorem Ipsum​</h4>
+                                <p>Lorem Ipsum</p>
+                                <span>37,00€</span>
+                                <button class="add-gallery-item"> Ajouter </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="carousel-right-nav">
+                        <img src="./assets/icones/right-arrow.svg" alt="naviguer à droite  dans le carousel" srcset="">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+    </div>
+    <footer>
+        <select name="langage-selector" id="langage-selector">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+        </select>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+    <script>
+        //Rendre le header sticky
+        document.addEventListener('DOMContentLoaded', function () {
+            const header = document.querySelector('header');
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 15) {
+                    //ajout d'une barre sous la navigation
+                    header.style.borderBottom = '2px solid #f4f4f4';
+                } else {
+                    header.style.borderBottom = 'none';
+                }
+            });
+        });
+
+        //Fermeture de la bar promo
+        document.addEventListener('DOMContentLoaded', function () {
+            const promo = document.querySelector(".bar-promo");
+            const closePromoBtn = document.querySelector(".bar-promo span");
+            const showPromo = document.querySelector("#show-promo");
+
+            // Afficher la barre promo par défaut
+            promo.style.display = "block";
+            showPromo.style.display = "none";
+
+            // Fermer la barre promo et afficher le bouton info
+            closePromoBtn.addEventListener('click', function () {
+                promo.style.display = "none";
+                showPromo.style.display = "flex";
+            });
+
+            // Rouvrir la barre promo et cacher le bouton info
+            showPromo.addEventListener("click", function () {
+                promo.style.display = "block";
+                showPromo.style.display = "none";
+            });
+        });
+
+
+        // Ouverture du menu dropdown
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownMenuBtn = document.getElementById('dropdown-menu');
+            const dropdownContent = document.getElementById('dropdown-content');
+            let isOpen = false;
+
+            dropdownMenuBtn.addEventListener('click', function (event) {
+                // Toggle le menu déroulant
+                isOpen = !isOpen;
+                dropdownContent.style.display = isOpen ? 'flex' : 'none';
+                event.stopPropagation(); // Empêcher la propagation du clic au document
+            });
+
+            document.addEventListener('click', function (event) {
+                // Fermer le menu déroulant si le clic n'est pas sur le bouton du menu ou son contenu
+                if (!dropdownMenuBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+                    isOpen = false;
+                    dropdownContent.style.display = 'none';
+                }
+            });
+
+            // Empêcher la fermeture du menu lorsqu'on clique sur les liens à l'intérieur du contenu
+            dropdownContent.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.stopPropagation(); // Empêcher la propagation du clic au document
+                });
+            });
+        });
+
+        //Ouverture du modal "Je découvre"
+        document.addEventListener('DOMContentLoaded', function () {
+            const modalContainer = document.getElementById('modal-container');
+            const modalCloseBtn = document.querySelector('.modal-content .close');
+            const openModalBtn = document.querySelector('.banner-content button');
+            const openModalResponsiveBtn = document.querySelector('.banner-responsive');
+            // Ouvrir le modal lors du clic sur le bouton "Je découvre"
+            openModalBtn.addEventListener('click', function () {
+                modalContainer.style.display = 'block';
+                document.body.classList.add('modal-open');
+            });
+            openModalResponsiveBtn.addEventListener('click', function () {
+                modalContainer.style.display = 'block';
+                document.body.classList.add('modal-open');
+            });
+
+
+            // Fermer le modal lors du clic sur le span "X"
+            modalCloseBtn.addEventListener('click', function () {
+                modalContainer.style.display = 'none';
+                document.body.classList.remove('modal-open');
+            });
+            // Fermer le modal lors d'un clic n'importe où dans la fenêtre
+            window.addEventListener('click', function (event) {
+                if (event.target === modalContainer) {
+                    modalContainer.style.display = 'none';
+                    document.body.classList.remove('modal-open');
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Sélection des boutons "Ajouter au panier"
+            const addToCartButtons = document.querySelectorAll('.add-gallery-item');
+            // Parcours des boutons et ajoute d'un écouteur d'événements à chacun
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Changement du texte du bouton pour indiquer qu'il a été ajouté au panier
+                    button.textContent = 'Dans le panier ✓';
+                    button.style.color = '#709670';
+                    button.style.borderColor = '#709670';
+                    if (button.textContent === 'Dans le panier ✓') {
+                        const styles = window.getComputedStyle(button, '::after');
+                        button.style.setProperty('background-color', '#fbfbfb');
+                    }
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Sélectionnez tous les boutons "Ajouter au panier"
+            const addToCartButtons = document.querySelectorAll('.add-gallery-item');
+            // Sélectionnez l'élément où afficher le compteur
+            const counterContainer = document.getElementById('counter');
+            // Initialisation du compteur
+            let counter = 0;
+            // Mettre à jour le compteur
+            function updateCounter() {
+                counterContainer.textContent = counter;
+            }
+            counterContainer.style.display = "none";
+            // Parcourez tous les boutons et ajoutez un écouteur d'événements à chacun
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    counterContainer.style.display = "flex";
+                    // Incrémentation du compteur
+                    counter++;
+                    // Mettre à jour le compteur affiché
+                    updateCounter();
+                    // Changez le texte du bouton pour indiquer qu'il a été ajouté au panier
+                    button.textContent = 'Dans le panier ✓';
+                });
+            });
+        });
+
+        // Draggable carousel à l'aide de la bibliothèque GSAP
+        gsap.registerPlugin(Draggable);
+        var wrapper = document.querySelector('.carousel-container');
+        var right = document.querySelector('#carousel-right-nav');
+        var left = document.querySelector('#carousel-left-nav');
+        var boxes = document.querySelectorAll('.carousel-item');
+        var boxWidth = 220;
+        var imgWidth = boxWidth - 5;
+        var wrapWidth = boxes.length * boxWidth + 1;
+        var viewWidth = wrapper.offsetWidth;
+
+        gsap.set(wrapper, { height: 375, width: wrapWidth + 1 });
+        for (var i = 0; i < boxes.length; i++) {
+            let box = boxes[i];
+            gsap.set(box, { x: i * boxWidth, left: -boxWidth + 1 });
+        }
+        var wrapProgress = gsap.utils.wrap(0, 1);
+        var snapBox = gsap.utils.snap(boxWidth);
+        var clickAnimation = gsap.set({}, {});
+        var proxy = document.createElement("div");
+        var props = gsap.getProperty(proxy);
+
+        var animation = gsap.to('.carousel-item', {
+            duration: 1,
+            x: "+=" + wrapWidth,
+            ease: Linear.easeNone,
+            paused: true,
+            repeat: 1,
+            modifiers: {
+                x: function (x, target) {
+                    x = parseFloat(x) % wrapWidth;
+                    return x + "px";
+                }
+            }
+        }).progress(1 / boxes.length);
+
+        Draggable.create(proxy, {
+            type: "x",
+            trigger: "#wrapper",
+            throwProps: true,
+            onDrag: updateProgress,
+            onThrowUpdate: updateProgress,
+            snap: {
+                x: snapBox
+            }
+        });
+
+        left.addEventListener('click', animateCarousel.bind(null, -1));
+        right.addEventListener('click', animateCarousel.bind(null, +1));
+
+        function updateProgress() {
+            animation.progress(wrapProgress(props("x") / wrapWidth));
+        }
+
+        function animateCarousel(direction) {
+            var currentPosition = parseFloat(props("x"));
+            var nextPosition = currentPosition + direction * boxWidth;
+            if (nextPosition < 0) {
+                nextPosition = wrapWidth - boxWidth;
+            } else if (nextPosition >= wrapWidth) {
+                nextPosition = 0;
+            }
+            clickAnimation.kill();
+            clickAnimation = gsap.to(proxy, {
+                duration: 0.2,
+                x: nextPosition,
+                onUpdate: updateProgress
+            });
+        }
+
+
+        //Sélection de la langue
+        document.addEventListener('DOMContentLoaded', function () {
+            const langSelector = document.getElementById('langage-selector');
+            const currentPage = window.location.pathname;
+
+            // Sélection automatique de l'option en fonction de la page actuelle
+            if (currentPage.includes('index.html')) {
+                langSelector.value = 'fr';
+            } else if (currentPage.includes('home.html')) {
+                langSelector.value = 'en';
+            }
+
+            // Ajouter l'écouteur d'événements pour changer de langue et de page
+            langSelector.addEventListener('change', function () {
+                const selectedLang = langSelector.value;
+                if (selectedLang === 'en') {
+                    window.location.href = 'home.html';
+                } else if (selectedLang === 'fr') {
+                    window.location.href = 'index.html';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
