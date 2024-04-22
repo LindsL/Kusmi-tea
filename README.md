@@ -4,9 +4,9 @@ Intégration de la page HTML Kusmi Tea
 Ce référentiel contient les fichiers nécessaires à l'intégration de la page HTML du site Kusmi Tea. Cette page présente une mise en page responsive et interactive pour afficher des produits, des bannières promotionnelles et des fonctionnalités comme l'ajout au panier.
 
 ## Contenu du référentiel
-index.html: Le fichier HTML principal de la page.
-home.html: La traduction en anglais de la page.
-style.css: Le fichier CSS contenant les styles pour la mise en page.
+- index.html: Le fichier HTML principal de la page.
+- home.html: La traduction en anglais de la page.
+- style.css: Le fichier CSS contenant les styles pour la mise en page.
 
 Dossiers assets: Contient les ressources telles que les images, les icônes, et le favicon utilisés sur la page.
 
@@ -15,5 +15,5 @@ Dossiers assets: Contient les ressources telles que les images, les icônes, et 
 
 
 ## Instructions d'utilisation
-Cloner ce référentiel sur votre machine locale.
-Ouvrir le fichier index.html dans un navigateur web pour prévisualiser la page.
+1. Clonez ce référentiel sur votre machine locale.
+2. Ouvrez le dossier, puis ouvrez le fichier index.html dans votre navigateur pour prévisualiser la page.
